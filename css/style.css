@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300|Zilla+Slab:300,400');
+
+/*
+	color - broken-sailboat.jpg
+	======================================================
+	tealish - #409EA8
+	grey blue? - #40656C
+	very light grey - #D8D8D8
+	very light green - #A0A190
+	very dark grey - #1D1D1D
+	dark navy blue - #142D39
+	high contrast orange - #D87848
+
+	color - polygon.png / triangles.png
+	======================================================
+	Darkest blue - #27363e
+	Darker blue - #2b3a42
+	Darkish blue - #2e3d45
+	greyblueish - #34434b
+
+
+	font goodies
+	======================================================
+	font-family: 'Oswald', sans-serif; // 400 & 300 weight
+	font-family: 'Zilla Slab', serif;  // 400 & 300 weight
+*/
+
+body {
+	margin: 0;
+	background-color: #2e3d45;
+}
+
+.header {
+	background: url(../img/bg/broken-sailboat.jpg) #142D39;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.header-content {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.header-content h1 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin-top: 0.5em;
+	margin-bottom: .05em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	color: #D8D8D8;
+	font-size: 8em;
+}
+
+.header-content h3 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin-top: .05em;
+	margin-bottom: .25em;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	color: #D87848;
+	font-size: 2em;
+}
+
+.things-i-do {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	background: url(../img/bg/polygon.png);
+	background-repeat: repeat;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.thing-box {
+	display: inline-block;
+	margin: auto;
+	width: 250px;
+	height: 75px;
+	padding: 75px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.thing-box h3 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	color: #409EA8;
+	font-size: 2em;
+}
+
+.thing-box p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	color: #D8D8D8;
+	font-size: 1.25em;
+}
+
+.thing-fa {
+	color: #D8D8D8;
+	padding-bottom: 10px;
+}
+
+.skills-i-have {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	background-repeat: repeat;
+	min-height: 100vh;
+	padding: 75px;
+}
+
+.skills-i-have h3 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	color: #409EA8;
+	font-size: 2em;
+}
+
+.skills-i-have p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	color: #D8D8D8;
+	font-size: 1.25em;
+}
+
+.skills-i-have li {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin: 0;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	color: #D8D8D8;
+	font-size: 1.25em;
+}
